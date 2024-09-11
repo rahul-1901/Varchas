@@ -39,7 +39,7 @@ const Navbar = () => {
           src={varchashome}
         ></img>
         <div className="md:flex flex-wrap md:w-[500px] md:justify-evenly md:gap-[20px] hidden h-auto md:mr-[15px]">
-          <NavLink className={(e)=>{return e.isActive?"red": "design"}} to="/"><p className="mr-[1px] cursor-pointer" onClick={firstScroll}>
+          <NavLink className={(e)=>{return e.isActive?"red": "design"}} to="/Varchas"><p className="mr-[1px] cursor-pointer" onClick={firstScroll}>
             HOME
           </p></NavLink>
           <NavLink className={(e)=>{return e.isActive?"red": "design"}} to="/events"><p className="mr-[1px] cursor-pointer">EVENTS</p></NavLink>
