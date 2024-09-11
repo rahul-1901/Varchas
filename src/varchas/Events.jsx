@@ -7,7 +7,7 @@ const Events = () => {
   return (
     <div className='w-screen'>
       <div className='w-full absolute items-center okay'>
-        <div className='flex flex-wrap justify-center mt-[v2h]'>
+        <div className='flex flex-wrap justify-center mt-[8vh]'>
           <img className='' src={sportsEvent}></img>
         </div>
         <div className='mt-[-10vh] flex flex-wrap justify-evenly items-center'>

@@ -14,7 +14,7 @@ const Login = () => {
           }`}
         >
           <img className='h-[50px] w-[50px] mt-[1vh]' src={varchashome} alt="logo" />
-          <p className='loginLogo text-center text-[30px] mt-[7vh]'>Login to your account</p>
+          <p className='loginLogo text-center text-[30px] lg:mt-[7vh] md:mt-[4vh] mt-[2vh]'>Login to your account</p>
           <p className='account text-[13px] mt-[-1vh]'>
             Don't have an account yet?
             <span
@@ -36,7 +36,7 @@ const Login = () => {
           }`}
         >
           <img className='h-[50px] w-[50px] mt-[1vh]' src={varchashome} alt="logo" />
-          <p className='loginLogo text-center text-[30px] mt-[7vh]'>Create an account</p>
+          <p className='loginLogo text-center text-[30px] lg:mt-[7vh] md:mt-[4vh] mt-[2vh]'>Create an account</p>
           <p className='account text-[13px] mt-[-1vh]'>
             Already have an account?
             <span

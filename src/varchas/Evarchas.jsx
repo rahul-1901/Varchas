@@ -9,7 +9,7 @@ const Evarchas = () => {
   return (
     <div className=''>
       <div className='absolute items-center okay w-full h-auto'>
-        <div className='flex flex-wrap justify-center mt-[1vh]'>
+        <div className='flex flex-wrap justify-center mt-[8vh]'>
           <img className='' src={sportsEvent}></img>
         </div>
         <div className='mt-[-12vh] flex flex-wrap justify-evenly items-center'>
