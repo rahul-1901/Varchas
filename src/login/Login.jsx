@@ -9,7 +9,7 @@ const Login = () => {
     <div className='relative'>
       <div className='loginback w-full flex justify-center items-center'>
         <div
-          className={`md:h-[400px] md:w-[400px] h-[400px] w-[320px] mt-[22vh] loginform flex flex-col items-center transition-all duration-500 ${
+          className={`lg:h-[400px] lg:w-[400px] md:h-[350px] md:w-[350px] h-[400px] w-[320px] mt-[22vh] loginform flex flex-col items-center transition-all duration-500 ${
             isLogin ? 'opacity-100 z-10' : 'opacity-0 z-0'
           }`}
         >
@@ -24,10 +24,10 @@ const Login = () => {
               SignUp
             </span>
           </p>
-          <input className='emailId mt-[2vh] w-[280px] md:w-[300px] h-[35px] p-[5px]' placeholder='Email address' />
-          <input className='emailId mt-[2vh] w-[280px] h-[35px] md:w-[300px] p-[5px]' placeholder='Password' />
-          <p className='mt-[0vh] text-[13px] forgotPass ml-[11.2vw]'>Forgot your Password?</p>
-          <button className='loginbutton w-[280px] h-[35px] md:w-[300px] text-[20px] mt-[5vh]'>Login</button>
+          <input className='emailId mt-[2vh] md:mt-[0.5vh] lg:mt-[2vh] w-[280px] md:w-[300px] h-[35px] p-[5px]' placeholder='Email address' />
+          <input className='emailId mt-[2vh] md:mt-[0.5vh] lg:mt-[2vh] w-[280px] h-[35px] md:w-[300px] p-[5px]' placeholder='Password' />
+          <p className='mt-[0vh] text-[13px] forgotPass lg:ml-[11vw] md:ml-[22vw] ml-[35vw]'>Forgot your Password?</p>
+          <button className='loginbutton w-[280px] h-[35px] md:w-[300px] text-[20px] mt-[4vh] md:mt-[2vh]'>Login</button>
         </div>
 
         <div
