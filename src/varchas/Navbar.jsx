@@ -52,7 +52,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className={`navClick h-[100vh] w-[100px] flex-col gap-[10px] items-center mt-[37.2px] ${isNavOpen ? 'flex' : 'hidden'}`}>
-          <NavLink className={(e)=>{return e.isActive?"red": "design"}} to="/"><p className="mr-[1px] text-[15px] cursor-pointer" onClick={firstScroll}>
+          <NavLink className={(e)=>{return e.isActive?"red": "design"}} to="/Varchas"><p className="mr-[1px] text-[15px] cursor-pointer" onClick={firstScroll}>
             HOME
           </p></NavLink>
           <NavLink className={(e)=>{return e.isActive?"red": "design"}} to="/events"><p className="mr-[1px] text-[15px] cursor-pointer">EVENTS</p></NavLink>
