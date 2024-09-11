@@ -134,7 +134,7 @@ const Varchas = () => {
                 <img className="md:h-[30px] h-[20px]" src={award}></img>
                 Certification
               </p>
-              <p className="mb-[0px] para md:text-[15px] ml-[10px]">
+              <p className="mb-[0px] para md:text-[15px] text-[12px] ml-[10px]">
                 Certificate of appreciation from Varchas,IIT Jodhpur recognising
                 your Hardwork.
               </p>
@@ -144,7 +144,7 @@ const Varchas = () => {
                 <img className="md:h-[30px] h-[20px]" src={award}></img>
                 Certification
               </p>
-              <p className="mb-[0px] para md:text-[15px] ml-[10px]">
+              <p className="mb-[0px] para md:text-[15px] ml-[10px] text-[12px]">
                 Certificate of appreciation from Varchas,IIT Guwahati
                 recognising your Hardwork.
               </p>
@@ -158,7 +158,7 @@ const Varchas = () => {
                 <img className="md:h-[30px] h-[20px]" src={goodies}></img>
                 Goodies prize
               </p>
-              <p className="mb-[0px] para md:text-[15px] ml-[10px]">
+              <p className="mb-[0px] para md:text-[15px] ml-[10px] text-[12px]">
                 Participate in the events and win merchandise, gift vouchers
                 from top brands and much more!
               </p>
@@ -168,7 +168,7 @@ const Varchas = () => {
                 <img className="md:h-[30px] h-[20px]" src={goodies}></img>
                 Goodies prize
               </p>
-              <p className="mb-[0px] para md:text-[15px] ml-[10px]">
+              <p className="mb-[0px] para md:text-[15px] ml-[10px] text-[12px]">
                 Participate in the events and win merchandise, gift vouchers
                 from top brands and much more!
               </p>
@@ -182,7 +182,7 @@ const Varchas = () => {
                 <img className="md:h-[30px] h-[20px]" src={future}></img>
                 Oppurtunities
               </p>
-              <p className="mb-[0px] para md:text-[15px] ml-[10px]">
+              <p className="mb-[0px] para md:text-[15px] ml-[10px] text-[12px]">
                 Participation in Varchas opens great Oppurtunities for your
                 sports carrer & enhance your connection.
               </p>
@@ -192,7 +192,7 @@ const Varchas = () => {
                 <img className="md:h-[30px] h-[20px]" src={future}></img>
                 Oppurtunities
               </p>
-              <p className="mb-[0px] para md:text-[15px] ml-[10px]">
+              <p className="mb-[0px] para md:text-[15px] ml-[10px] text-[12px]">
                 Participation in Varchas opens great Oppurtunities for your
                 sports carrer & enhance your connection.
               </p>
