@@ -9,10 +9,10 @@ const Evarchas = () => {
   return (
     <div className=''>
       <div className='absolute items-center okay w-full h-auto'>
-        <div className='flex flex-wrap justify-center mt-[8vh]'>
+        <div className='flex flex-wrap justify-center mt-[1vh]'>
           <img className='' src={sportsEvent}></img>
         </div>
-        <div className='mt-[-12vh] flex flex-wrap justify-evenly items-center'>
+        <div className='lg:mt-[-12vh] md:mt-[-5vh] mt-[-10vh] flex flex-wrap justify-evenly items-center'>
           <div className='parent h-[300px] w-[220px] mt-[50px]'>
             <div className='cardGame pt-[220px]'>
                 <div className='number ml-[0.3vw] absolute mt-[-15px]'>

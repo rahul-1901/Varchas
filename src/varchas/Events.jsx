@@ -7,10 +7,10 @@ const Events = () => {
   return (
     <div className='w-screen'>
       <div className='w-full absolute items-center okay'>
-        <div className='flex flex-wrap justify-center mt-[8vh]'>
+        <div className='flex flex-wrap justify-center mt-[4vh]'>
           <img className='' src={sportsEvent}></img>
         </div>
-        <div className='mt-[-10vh] flex flex-wrap justify-evenly items-center'>
+        <div className='lg:mt-[-12vh] md:mt-[-5vh] mt-[-10vh] flex flex-wrap justify-evenly items-center'>
           <div className='parent h-[300px] w-[220px] mt-[50px]'>
             <div className='card pt-[220px]'>
                 <div className='number ml-[0.3vw] absolute mt-[-15px]'>
