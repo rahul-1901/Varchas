@@ -8,7 +8,7 @@ import './Sponsors.css';
 const Evarchas = () => {
   return (
     <div className=''>
-      <div className='container absolute items-center okay w-full h-auto'>
+      <div className='absolute items-center okay w-full h-auto'>
         <div className='flex flex-wrap justify-center mt-[1vh]'>
           <img className='' src={sportsEvent}></img>
         </div>

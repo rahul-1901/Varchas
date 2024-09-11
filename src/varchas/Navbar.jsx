@@ -51,7 +51,7 @@ const Navbar = () => {
           <a className="text-[25px] mr-[5px]" href="#" onClick={toggleNav}>&#8801;</a>
         </div>
       </div>
-      <div className={`navClick h-[100vh] w-[100px] flex-col gap-[10px] items-center mt-[37.2px] ${isNavOpen ? 'flex' : 'hidden'}`}>
+      <div className={`md:hidden navClick h-[100vh] w-[100px] flex-col gap-[10px] items-center mt-[37.2px] ${isNavOpen ? 'flex' : 'hidden'}`}>
           <NavLink className={(e)=>{return e.isActive?"red": "design"}} to="/Varchas"><p className="mr-[1px] text-[15px] cursor-pointer" onClick={firstScroll}>
             HOME
           </p></NavLink>

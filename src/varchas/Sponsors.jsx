@@ -22,7 +22,7 @@ import sportsEvent from '../assets/sponsors.png';
 const Sponsors = () => {
   return (
     <div className=''>
-      <div className='container absolute items-center okay'>
+      <div className='w-full absolute items-center okay'>
         <div className='flex flex-wrap justify-center mt-[8vh]'>
             <img className='' src={sportsEvent}></img>
         </div>

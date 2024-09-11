@@ -5,8 +5,8 @@ import sportsEvent from '../assets/sportsFest.png';
 
 const Events = () => {
   return (
-    <div className=''>
-      <div className='container absolute items-center okay'>
+    <div className='w-screen'>
+      <div className='w-full absolute items-center okay'>
         <div className='flex flex-wrap justify-center mt-[v2h]'>
           <img className='' src={sportsEvent}></img>
         </div>
